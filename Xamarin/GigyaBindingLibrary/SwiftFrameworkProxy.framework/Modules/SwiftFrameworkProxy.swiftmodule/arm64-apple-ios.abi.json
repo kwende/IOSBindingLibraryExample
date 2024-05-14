@@ -1,0 +1,174 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftFrameworkProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SwiftFrameworkProxy"
+      },
+      {
+        "kind": "Import",
+        "name": "Gigya",
+        "printedName": "Gigya",
+        "declKind": "Import",
+        "moduleName": "SwiftFrameworkProxy"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftFrameworkProxy",
+        "printedName": "SwiftFrameworkProxy",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initFor",
+            "printedName": "initFor(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SwiftFrameworkProxy@objc(cs)SwiftFrameworkProxy(im)initForApiKey:",
+            "mangledName": "$s19SwiftFrameworkProxyAAC7initFor6apiKeyS2S_tF",
+            "moduleName": "SwiftFrameworkProxy",
+            "objc_name": "initForApiKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftFrameworkProxy",
+                "printedName": "SwiftFrameworkProxy.SwiftFrameworkProxy",
+                "usr": "c:@M@SwiftFrameworkProxy@objc(cs)SwiftFrameworkProxy"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SwiftFrameworkProxy@objc(cs)SwiftFrameworkProxy(im)init",
+            "mangledName": "$s19SwiftFrameworkProxyAACABycfc",
+            "moduleName": "SwiftFrameworkProxy",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SwiftFrameworkProxy@objc(cs)SwiftFrameworkProxy",
+        "mangledName": "$s19SwiftFrameworkProxyAAC",
+        "moduleName": "SwiftFrameworkProxy",
+        "objc_name": "SwiftFrameworkProxy",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ocuvera\/Documents\/repo\/SwiftFrameworkProxy\/SwiftFrameworkProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 323,
+      "length": 47,
+      "value": "\"Gigya initialized with domain: \""
+    },
+    {
+      "filePath": "\/Users\/ocuvera\/Documents\/repo\/SwiftFrameworkProxy\/SwiftFrameworkProxy.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 1,
+      "value": "\"\""
+    }
+  ]
+}
